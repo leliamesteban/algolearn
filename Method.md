@@ -1,9 +1,3 @@
-# Check the size of the input
-
-- if n is smaller than 10, the input is very small and the answer is likely brute force or similar (backtracking)
-- If n is around 100 - 1000, an O(n²) solution might be optimal, so you should consider nested loops
-- If n is between 1000 and 10000, the solution is probably O(n log(n)) or O(n)
-
 # Decide on a data structure / algorithm
 
 ## Option 1: 0 < n < 100 - Brute force - Worse than O(n²)
@@ -23,3 +17,11 @@ Sorting takes O(n log(n)).
 ## Option 4: 1,000,000 < n - Binary search or clever tricks - O(log(n)) or constant
 
 O(log(n)) just means the time it takes increases by 1 every time the input increases by x10, which is a very slow increase.
+
+# Methods
+
+## Two pointers
+
+## Sliding subarray / sliding window
+
+Two pointers but applied to subarrays instead of traversing the array.
