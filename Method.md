@@ -25,3 +25,11 @@ O(log(n)) just means the time it takes increases by 1 every time the input incre
 ## Sliding subarray / sliding window
 
 Two pointers but applied to subarrays instead of traversing the array.
+
+## Prefix sum / running sum - O(n)
+
+Return an array containing the cumulative sum of every element in the input array.
+
+```python
+return [sum(inputArray[0:i + 1]) for i in range(len(inputArray))]
+```
