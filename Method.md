@@ -33,3 +33,5 @@ Return an array containing the cumulative sum of every element in the input arra
 ```python
 return [sum(inputArray[0:i + 1]) for i in range(len(inputArray))]
 ```
+
+# Solve the smallest case, then increment by 1 until you consider every case
