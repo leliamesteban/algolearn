@@ -13,12 +13,12 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 # This call to setup() does all the work
 setup(
-    name="leetcode",
+    name="algolearn",
     version="0.1.0",
     description="Custom implementation of standard library to help learn Data Structures, Algorithms and Leetcode",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://leetcode.readthedocs.io/",
+    url="https://algolearn.readthedocs.io/",
     author="Liam Esteban Prince",
     author_email="liamesteban@gmail.com",
     license="MIT",
