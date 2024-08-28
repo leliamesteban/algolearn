@@ -1,6 +1,6 @@
 import unittest
 import math
-from leetcode import Multiplication
+from algolearn import Multiplication
 
 class MultiplicationTestCase(unittest.TestCase):
   def setUp(self):
