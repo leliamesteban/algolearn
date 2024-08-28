@@ -20,7 +20,3 @@ class Multiplication:
     :rtype: int
     """
     return number * self.multiplier
-
-multiplication = Multiplication(2)
-
-print(multiplication.multiply(5))
