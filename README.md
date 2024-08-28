@@ -1,4 +1,4 @@
-# Command Line Chess Engine
+# Custom Standard Library
 
 ## Table of Contents
 
