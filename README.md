@@ -14,6 +14,7 @@ Custom implementation of standard library to help learn Data Structures, Algorit
 
 ## Future Features
 
+- Make available on GitHub packages
 - Use a build tool instead of running setup.py directly because this method is deprecated
 - Upload to PyPi automatically using GitHub Actions
 - Host the documentation on Read The Docs
