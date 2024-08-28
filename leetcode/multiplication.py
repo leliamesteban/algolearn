@@ -22,7 +22,7 @@ class Multiplication:
     :return: The result of the multiplication
     :rtype: int
     """
-    return number * multiplier
+    return number * self.multiplier
 
 multiplication = Multiplication(2)
 
