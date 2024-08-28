@@ -1,4 +1,4 @@
-from leetcode import Multiplication
+from algolearn import Multiplication
 
 multiplication = Multiplication(2)
 
