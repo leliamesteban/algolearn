@@ -27,8 +27,6 @@ Custom implementation of standard library to help learn Data Structures, Algorit
 
 ## System requirements
 
-For manual publishing to PyPi: pip, wheel, twine, setuptools
-
 ## Installation
 
 ```bash
@@ -47,14 +45,22 @@ python3 main.py
 python3 -m unittest -v tests/multiplication_tests.py
 ```
 
+## Contributing
+
 ## Manually publishing to PyPi
 
 ```bash
-pip install twine wheel setuptools
-python setup.py sdist bdist_wheel
+pip3 install twine wheel setuptools
+python3 setup.py sdist bdist_wheel
 twine check dist/*
 twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 twine upload dist/*
 ```
 
-## Contributing
+## Generating documentation
+
+```bash
+pip3 install sphinx
+mkdir docs && cd docs
+sphinx-quickstart
+```
