@@ -11,15 +11,19 @@ Custom implementation of standard library to help learn Data Structures, Algorit
 - Implement Stack
 - Implement Tree
 
-## Future Features
+## Future Features
+
+- Use a build tool instead of running setup.py directly because this method is deprecated
 
 ## Phases
 
-## Milestones
+## Milestones
 
 ## User stories
 
 ## System requirements
+
+For manual publishing to PyPi: pip, wheel, twine, setuptools
 
 ## Installation
 
@@ -37,6 +41,16 @@ python3 main.py
 
 ```bash
 python3 -m unittest -v tests/multiplication_tests.py
+```
+
+## Manually publishing to PyPi
+
+```bash
+pip install twine wheel setuptools
+python setup.py sdist bdist_wheel
+twine check dist/*
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+twine upload dist/*
 ```
 
 ## Contributing
