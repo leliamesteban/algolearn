@@ -1,23 +1,5 @@
 # Custom Standard Library
 
-## Table of Contents
-
-- [Description](#description)
-- [Core Features](#core-features)
-- [Future Features](#future-features)
-- [Phases](#phases)
-- [Milestones](#milestones)
-- [User Stories](#user-stories)
-- [System Requirements](#system-requirements)
-- [Mockups](#mockups)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Description
-
 Custom implementation of standard library to help learn Data Structures, Algorithms and Leetcode.
 
 ## Core Features
