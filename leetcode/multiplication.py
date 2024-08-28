@@ -6,10 +6,10 @@ class Multiplication:
   :param multiplier:
   :type multiplier: int
   """
-  def __init__(self, multiplier):
+  def __init__(self, multiplier: int):
     self.multiplier = multiplier
   
-  def multiply(number: int, multiplier: int) -> int:
+  def multiply(self, number: int) -> int:
     """
     Multiply a given number by a given multiplier.
   
