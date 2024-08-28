@@ -63,4 +63,5 @@ twine upload dist/*
 pip3 install sphinx
 mkdir docs && cd docs
 sphinx-quickstart
+make html
 ```
