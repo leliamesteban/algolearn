@@ -1,4 +1,4 @@
-from leetcode.multiplication import Multiplication
+from leetcode import Multiplication
 
 multiplication = Multiplication(2)
 
