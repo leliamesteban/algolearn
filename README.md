@@ -54,5 +54,3 @@ twine upload dist/*
 ```
 
 ## Contributing
-
-## License
