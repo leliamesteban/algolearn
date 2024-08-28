@@ -1,4 +1,4 @@
-# Custom Standard Library
+# algolearn - Custom Standard Library
 
 Custom implementation of standard library to help learn Data Structures, Algorithms and Leetcode.
 
@@ -28,7 +28,7 @@ For manual publishing to PyPi: pip, wheel, twine, setuptools
 ## Installation
 
 ```bash
-pip3 install leetcode
+pip3 install algolearn
 ```
 
 ## Usage
