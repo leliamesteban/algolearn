@@ -4,6 +4,7 @@ Custom implementation of standard library to help learn Data Structures, Algorit
 
 ## Core Features
 
+- Available on PyPi
 - Implement Array
 - Implement LinkedList
 - Implement HashMap
@@ -14,6 +15,9 @@ Custom implementation of standard library to help learn Data Structures, Algorit
 ## Future Features
 
 - Use a build tool instead of running setup.py directly because this method is deprecated
+- Upload to PyPi automatically with a free CI / CD tool
+- Host the documentation on Read The Docs
+- Generate documentation automatically with Sphinx
 
 ## Phases
 
